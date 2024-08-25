@@ -9,10 +9,9 @@
 </head>
 
 <body>
-  <div id="app"></div>
   <section id="loader" class="loading">Loading, please wait...</section>
   <main id="main" class="container mt-5" style="display: none">
-    <section class="row justify-content-center">
+    <article class="row justify-content-center">
       <section class="col-6">
         <figure class="ball-container animate" id="ball-container">
           <span class="ball-shadow"></span>
@@ -24,8 +23,8 @@
           <h1 class="appear text-center mt-5" id="selected-item"></h1>
         </figure>
       </section>
-      <section class="col-12 col-sm-6 mt-5 mt-sm-0">
-        <section class="names-list">
+      <section class="col-12 col-md-6 mt-5 mt-md-0">
+        <div class="names-list">
           <i id="add-name-button" class="bi bi-person-add" data-bs-toggle="tooltip" data-bs-placement="top"
             data-bs-title="Add person"></i>
           <i id="remove-name-button" class="bi bi-person-dash" data-bs-toggle="tooltip" data-bs-placement="top"
@@ -39,13 +38,19 @@
               </tr>
             </thead>
             <tbody id="names-list">
-
             </tbody>
-        </section>
+        </div>
       </section>
-    </section>
+    </article>
 
   </main>
+
+  <footer class="fixed-bottom text-center py-4">
+    <p class="mb-0">Developed by sergiotrrs</p>
+    <a href="https://github.com/sergiotrrs/ball8" target="_blank" class="text-white">
+      <i class="bi bi-github"></i>
+    </a>
+  </footer>
   <script type="module" src="/main.js"></script>
 </body>
 
