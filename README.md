@@ -1,5 +1,7 @@
 # Magic 8 Ball App
 
+[ball-8.netlify.app](https://ball-8.netlify.app/)
+
 Esta es una aplicación web simple desarrollada con [Vite](https://vitejs.dev/) que simula una bola 8 de billar mágica. Puedes ingresar una lista de nombres, y al presionar la bola 8, mostrará uno de esos nombres al azar. Es una herramienta divertida para tomar decisiones o simplemente para pasar el tiempo.
 
 ## Características
